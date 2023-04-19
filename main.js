@@ -1,7 +1,7 @@
 //Propiedades de "Numbers"
 
-//Propiedad MAX_VALUE, esta regresa como resultado el numero mas alto que puede representar Javascript, el resultado esperado es "1.7976931348623157e+308"
+//Propiedad MIN_VALUE, esta regresa como resultado el numero positivo mas bajo que puede representar Javascript, el resultado esperado es "5e-324"
 
-let num = Number.MAX_VALUE;
+let num = Number.MIN_VALUE;
 
 console.log(num);
