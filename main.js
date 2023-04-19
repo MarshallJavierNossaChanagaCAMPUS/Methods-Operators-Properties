@@ -1,7 +1,7 @@
 //Propiedades de "Numbers"
 
-//Propiedad POSITIVE_INFINITY, esta regresa como resultado "infinity"
+//Propiedad NEGATIVE_INFINITY, esta regresa como resultado "-Infinity"
 
-let num = Number.POSITIVE_INFINITY;
+let num = Number.NEGATIVE_INFINITY;
 
 console.log(num);
