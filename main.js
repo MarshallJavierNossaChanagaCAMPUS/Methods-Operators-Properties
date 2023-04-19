@@ -1,7 +1,9 @@
-//Propiedades de "Numbers"
+//Metodos de "Numbers"
 
-//Propiedad NaN, esta es un valor que representa Not a Number (no es un numero)
+//Metodo toExponential, este metodo regresa una cadena de texto representando el numero en su notacion exponencial, esto se utiliza para representar numeros muy grandes o muy pequeños de manera compacta
 
-let num = NaN;
+let num = 120802;
 
-console.log(num);
+console.log(num.toExponential(2));
+
+//el resultado esperado es "1.21e+5"
