@@ -1,7 +1,7 @@
 //Propiedades de "Numbers"
 
-//Propiedad MIN_VALUE, esta regresa como resultado el numero positivo mas bajo que puede representar Javascript, el resultado esperado es "5e-324"
+//Propiedad NaN, esta es un valor que representa Not a Number (no es un numero)
 
-let num = Number.MIN_VALUE;
+let num = NaN;
 
 console.log(num);
